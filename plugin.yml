@@ -1,0 +1,14 @@
+name: HRKMigrator
+main: CortexPE\HRKMigrator\Main
+version: 1.0.0
+api: 3.0.0
+load: POSTWORLD
+author: CortexPE
+description: Migrate PurePerms & PureChat configuration and data to Hierarchy and HRKChat
+website: https://CortexPE.xyz
+depend:
+ - Hierarchy
+softdepend:
+ - PurePerms
+ - HRKChat
+ - PureChat
